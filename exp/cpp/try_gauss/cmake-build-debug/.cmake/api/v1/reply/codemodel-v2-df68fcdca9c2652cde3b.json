@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "try_gauss",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "try_gauss::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-try_gauss-Debug-61a00612185aca4bb91d.json",
+					"name" : "try_gauss",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/try_gauss/cmake-build-debug",
+		"source" : "D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/try_gauss"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,3 @@
+D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/NR_mod/cmake-build-debug/CMakeFiles/NR_mod.dir
+D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/NR_mod/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/NR_mod/cmake-build-debug/CMakeFiles/rebuild_cache.dir

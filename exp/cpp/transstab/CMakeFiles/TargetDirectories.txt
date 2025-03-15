@@ -1,0 +1,3 @@
+D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/transstab/CMakeFiles/transstab.dir
+D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/transstab/CMakeFiles/edit_cache.dir
+D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/transstab/CMakeFiles/rebuild_cache.dir

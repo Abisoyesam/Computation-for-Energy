@@ -1,0 +1,52 @@
+8 ---------  Transient Stability studies  --------
+8 ---------     Modified Euler method     -------- ----------  Input file for the Transient Stability program  ----------
+ --- Number of total Buses = 5  PV Buses = 1
+
+ 
+ ---------------------------  Bus Data  -------------------------------
+  BUS           Pg       Qg       Pl       Ql       Vb
+1  NORTH         1.2957   -0.07489  0        0        1.06   
+1  SOUTH         0.4      0.3004   0.2      0.1      1.04747
+1  LAKE          0        0        0.45     0.15     1      
+1  MAIN          0        0        0.4      0.05     1      
+1  ELM           0        0        0.6      0.1      1    ----------------------------  Line Data  -----------------------------
+  BUS           BUS           Rs       Xs       Gs       Bs       Smax
+3  NORTH         LAKE          0.08     0.24     0        0.025    0      
+3  LAKE          MAIN          0.01     0.03     0        0.01     0      
+3  MAIN          ELM           0.08     0.24     0        0.025    0      
+3  NORTH         SOUTH         0.02     0.06     0        0.03     0      
+3  SOUTH         LAKE          0.06     0.18     0        0.02     0      
+3  SOUTH         MAIN          0.06     0.18     0        0.02     0      
+3  SOUTH         ELM           0.04     0.12     0        0.015    0  ------------------------  Transformer Data  --------------------------
+  BUS           BUS           Rs       Xs       Amag     A(deg)  Smax
+ -------------------------  Capacitor Data  ---------------------------
+  BUS           Bc
+ -----------------------  Acceleration Factor GS  ---------------------
+9  1.6 ----------------  Bus voltage from Load Flow study  ------------------
+  Bus           mag      arg(deg)
+11 NORTH         1.06     0        
+11 SOUTH         1.04747  -2.80648 
+11 LAKE          1.02421  -4.99667 
+11 MAIN          1.02361  -5.32873 
+11 ELM           1.01798  -6.149 ----------------------  Machine Characteristics  --------------------
+  Bus            H         D        R        Xdp
+16 NORTH         50        0         0        0.25   
+16 SOUTH         1         0         0        1.5     --------------------------  Monitored Buses  -------------------------
+  Bus
+17 SOUTH       
+17 NORTH        --------------------------  3 Phase Faulty Bus  ----------------------
+  Bus           Start   End     Gf        Bf
+18 SOUTH         0       0.1     1e+20     1e+20    ------------------------  Simulation Parameters  ---------------------
+  dt      End     Nimax Tol       eps       Fault freq
+22 0.02    0.9     25    0.001   0.001   1     60   ----------------  Transient Stability Output Options  ----------------
+23 0 ------------------------  END OF INPUT FILE  ------------------------
+
+----------  Y Matrix has been modified  ----------
+            at time : 0     
+
+----------  Y Matrix has been modified  ----------
+            at time : 0     
+
+----------  Y Matrix has been modified  ----------
+            at time : 0.1   
+Total time : 0 s

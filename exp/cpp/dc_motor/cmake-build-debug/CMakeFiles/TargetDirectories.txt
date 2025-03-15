@@ -1,0 +1,3 @@
+D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/dc_motor/cmake-build-debug/CMakeFiles/dc_motor.dir
+D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/dc_motor/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/MSc. Energy Engineering/Classes/Second Semester/Advanced Computation for Energy Engineering/exp/cpp/dc_motor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
